@@ -1,0 +1,29 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "gold_tools",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.STONE_HOE"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.GOLD_INGOT"
+    },
+    "smithingInputTemplateStack": {
+      "value": "CUSTOM:GoldTemplate"
+    },
+    "smithingReturnStack": {
+      "value": "Items.GOLDEN_HOE"
+    },
+    "name": "golden_hoe",
+    "namespace": "minecraft"
+  }
+}

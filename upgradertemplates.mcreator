@@ -1,0 +1,995 @@
+{
+  "mod_elements": [
+    {
+      "name": "StoneTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_template",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suluzuko/upgradertemplates/item/StoneTemplateItem.java",
+          "src/main/resources/assets/upgradertemplates/models/item/stone_template.json"
+        ]
+      },
+      "path": "~/templates"
+    },
+    {
+      "name": "CraftingStoneTemplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_stone_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/upgradertemplates/recipe/crafting_stone_template.json"
+        ]
+      },
+      "path": "~/template recipes"
+    },
+    {
+      "name": "CraftingStoneSword",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_stone_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/crafting_stone_sword.json"
+        ]
+      },
+      "path": "~/stone tools"
+    },
+    {
+      "name": "CraftingStonePickaxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_stone_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/crafting_stone_pickaxe.json"
+        ]
+      },
+      "path": "~/stone tools"
+    },
+    {
+      "name": "CraftingStoneShovel",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_stone_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/crafting_stone_shovel.json"
+        ]
+      },
+      "path": "~/stone tools"
+    },
+    {
+      "name": "CraftingStoneAxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_stone_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/crafting_stone_axe.json"
+        ]
+      },
+      "path": "~/stone tools"
+    },
+    {
+      "name": "CraftingStoneHoe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_stone_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/crafting_stone_hoe.json"
+        ]
+      },
+      "path": "~/stone tools"
+    },
+    {
+      "name": "IronTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_template",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suluzuko/upgradertemplates/item/IronTemplateItem.java",
+          "src/main/resources/assets/upgradertemplates/models/item/iron_template.json"
+        ]
+      },
+      "path": "~/templates"
+    },
+    {
+      "name": "SmithingIronSword",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smithing_iron_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/smithing_iron_sword.json"
+        ]
+      },
+      "path": "~/iron tools"
+    },
+    {
+      "name": "SmithingIronPickaxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smithing_iron_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/smithing_iron_pickaxe.json"
+        ]
+      },
+      "path": "~/iron tools"
+    },
+    {
+      "name": "SmithingIronShovel",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smithing_iron_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/smithing_iron_shovel.json"
+        ]
+      },
+      "path": "~/iron tools"
+    },
+    {
+      "name": "SmithingIronAxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smithing_iron_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/smithing_iron_axe.json"
+        ]
+      },
+      "path": "~/iron tools"
+    },
+    {
+      "name": "SmithingIronHoe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smithing_iron_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/smithing_iron_hoe.json"
+        ]
+      },
+      "path": "~/iron tools"
+    },
+    {
+      "name": "CraftingIronTemplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_iron_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/upgradertemplates/recipe/crafting_iron_template.json"
+        ]
+      },
+      "path": "~/template recipes"
+    },
+    {
+      "name": "LootIronTemplate",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_iron_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/chests/trial_chambers/reward_unique.json"
+        ]
+      },
+      "path": "~/template loot tables"
+    },
+    {
+      "name": "LootDiamondTemplate",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_diamond_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/chests/trial_chambers/reward_ominous_unique.json"
+        ]
+      },
+      "path": "~/template loot tables"
+    },
+    {
+      "name": "DiamondTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/upgradertemplates/models/item/diamond_template.json",
+          "src/main/java/net/suluzuko/upgradertemplates/item/DiamondTemplateItem.java"
+        ]
+      },
+      "path": "~/templates"
+    },
+    {
+      "name": "GoldTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_template",
+      "metadata": {
+        "files": [
+          "src/main/java/net/suluzuko/upgradertemplates/item/GoldTemplateItem.java",
+          "src/main/resources/assets/upgradertemplates/models/item/gold_template.json"
+        ]
+      },
+      "path": "~/templates"
+    },
+    {
+      "name": "LootGoldTemplate",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "loot_gold_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/chests/ruined_portal.json"
+        ]
+      },
+      "path": "~/template loot tables"
+    },
+    {
+      "name": "SmithingTemplates",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smithing_templates",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "StonePickaxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/stone_pickaxe.json"
+        ]
+      },
+      "path": "~/recipe overrides"
+    },
+    {
+      "name": "StoneSword",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/stone_sword.json"
+        ]
+      },
+      "path": "~/recipe overrides"
+    },
+    {
+      "name": "StoneShovel",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/stone_shovel.json"
+        ]
+      },
+      "path": "~/recipe overrides"
+    },
+    {
+      "name": "StoneAxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/stone_axe.json"
+        ]
+      },
+      "path": "~/recipe overrides"
+    },
+    {
+      "name": "StoneHoe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/stone_hoe.json"
+        ]
+      },
+      "path": "~/recipe overrides"
+    },
+    {
+      "name": "IronSword",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/iron_sword.json"
+        ]
+      },
+      "path": "~/recipe overrides"
+    },
+    {
+      "name": "IronPickaxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/iron_pickaxe.json"
+        ]
+      },
+      "path": "~/recipe overrides"
+    },
+    {
+      "name": "IronShovel",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/iron_shovel.json"
+        ]
+      },
+      "path": "~/recipe overrides"
+    },
+    {
+      "name": "IronAxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/iron_axe.json"
+        ]
+      },
+      "path": "~/recipe overrides"
+    },
+    {
+      "name": "IronHoe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/iron_hoe.json"
+        ]
+      },
+      "path": "~/recipe overrides"
+    },
+    {
+      "name": "DiamondSword",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/diamond_sword.json"
+        ]
+      },
+      "path": "~/diamond tools"
+    },
+    {
+      "name": "DiamondPickaxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/diamond_pickaxe.json"
+        ]
+      },
+      "path": "~/diamond tools"
+    },
+    {
+      "name": "DiamondShovel",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/diamond_shovel.json"
+        ]
+      },
+      "path": "~/diamond tools"
+    },
+    {
+      "name": "DiamondAxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/diamond_axe.json"
+        ]
+      },
+      "path": "~/diamond tools"
+    },
+    {
+      "name": "DiamondHoe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/diamond_hoe.json"
+        ]
+      },
+      "path": "~/diamond tools"
+    },
+    {
+      "name": "CraftingGoldTemplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_gold_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/upgradertemplates/recipe/crafting_gold_template.json"
+        ]
+      },
+      "path": "~/template recipes"
+    },
+    {
+      "name": "CraftingDiamondTemplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_diamond_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/upgradertemplates/recipe/crafting_diamond_template.json"
+        ]
+      },
+      "path": "~/template recipes"
+    },
+    {
+      "name": "DiamondHelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/diamond_helmet.json"
+        ]
+      },
+      "path": "~/diamond tools"
+    },
+    {
+      "name": "DiamondChestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/diamond_chestplate.json"
+        ]
+      },
+      "path": "~/diamond tools"
+    },
+    {
+      "name": "DiamondLeggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/diamond_leggings.json"
+        ]
+      },
+      "path": "~/diamond tools"
+    },
+    {
+      "name": "DiamondBoots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/diamond_boots.json"
+        ]
+      },
+      "path": "~/diamond tools"
+    },
+    {
+      "name": "ChainmailHelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/chainmail_helmet.json"
+        ]
+      },
+      "path": "~/stone tools"
+    },
+    {
+      "name": "ChainmailChestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/chainmail_chestplate.json"
+        ]
+      },
+      "path": "~/stone tools"
+    },
+    {
+      "name": "ChainmailLeggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/chainmail_leggings.json"
+        ]
+      },
+      "path": "~/stone tools"
+    },
+    {
+      "name": "ChainmailBoots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/chainmail_boots.json"
+        ]
+      },
+      "path": "~/stone tools"
+    },
+    {
+      "name": "IronChestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/iron_chestplate.json"
+        ]
+      },
+      "path": "~/iron tools"
+    },
+    {
+      "name": "IronLeggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/iron_leggings.json"
+        ]
+      },
+      "path": "~/iron tools"
+    },
+    {
+      "name": "IronHelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/iron_helmet.json"
+        ]
+      },
+      "path": "~/iron tools"
+    },
+    {
+      "name": "IronBoots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/iron_boots.json"
+        ]
+      },
+      "path": "~/iron tools"
+    },
+    {
+      "name": "DiamondHelmetGold",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_helmet_gold",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/diamond_helmet_gold.json"
+        ]
+      },
+      "path": "~/diamond tools"
+    },
+    {
+      "name": "DiamondChestplateGold",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_chestplate_gold",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/diamond_chestplate_gold.json"
+        ]
+      },
+      "path": "~/diamond tools"
+    },
+    {
+      "name": "DiamondLeggingsGold",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_leggings_gold",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/diamond_leggings_gold.json"
+        ]
+      },
+      "path": "~/diamond tools"
+    },
+    {
+      "name": "DiamondBootsGold",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_boots_gold",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/diamond_boots_gold.json"
+        ]
+      },
+      "path": "~/diamond tools"
+    },
+    {
+      "name": "GoldenSword",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/golden_sword.json"
+        ]
+      },
+      "path": "~/gold tools"
+    },
+    {
+      "name": "GoldenPickaxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/golden_pickaxe.json"
+        ]
+      },
+      "path": "~/gold tools"
+    },
+    {
+      "name": "GoldenShovel",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/golden_shovel.json"
+        ]
+      },
+      "path": "~/gold tools"
+    },
+    {
+      "name": "GoldenAxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/golden_axe.json"
+        ]
+      },
+      "path": "~/gold tools"
+    },
+    {
+      "name": "GoldenHoe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/golden_hoe.json"
+        ]
+      },
+      "path": "~/gold tools"
+    },
+    {
+      "name": "GoldenHelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/golden_helmet.json"
+        ]
+      },
+      "path": "~/gold tools"
+    },
+    {
+      "name": "GoldenChestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/golden_chestplate.json"
+        ]
+      },
+      "path": "~/gold tools"
+    },
+    {
+      "name": "GoldenLeggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/golden_leggings.json"
+        ]
+      },
+      "path": "~/gold tools"
+    },
+    {
+      "name": "GoldenBoots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/golden_boots.json"
+        ]
+      },
+      "path": "~/gold tools"
+    },
+    {
+      "name": "DiamondSwordGold",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_sword_gold",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/diamond_sword_gold.json"
+        ]
+      },
+      "path": "~/diamond tools"
+    },
+    {
+      "name": "DiamondPickaxeGold",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pickaxe_gold",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/diamond_pickaxe_gold.json"
+        ]
+      },
+      "path": "~/diamond tools"
+    },
+    {
+      "name": "DiamondShovelGold",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_shovel_gold",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/diamond_shovel_gold.json"
+        ]
+      },
+      "path": "~/diamond tools"
+    },
+    {
+      "name": "DiamondAxeGold",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_axe_gold",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/diamond_axe_gold.json"
+        ]
+      },
+      "path": "~/diamond tools"
+    },
+    {
+      "name": "DiamondHoeGold",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_hoe_gold",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/diamond_hoe_gold.json"
+        ]
+      },
+      "path": "~/diamond tools"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:StoneTemplate"
+    ]
+  },
+  "tab_element_order": {
+    "MATERIALS": [
+      "StoneTemplate",
+      "IronTemplate",
+      "GoldTemplate",
+      "DiamondTemplate"
+    ],
+    "CUSTOM:SmithingTemplates": [
+      "StoneTemplate",
+      "IronTemplate",
+      "GoldTemplate",
+      "DiamondTemplate"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.upgradertemplates.iron_template": "Upgrade Template",
+      "item.upgradertemplates.iron_template.description_4": "§7Ingredients:",
+      "item.upgradertemplates.iron_template.description_5": " §bIron Ingot",
+      "item.upgradertemplates.iron_template.description_2": "§7Applies to:",
+      "item.upgradertemplates.iron_template.description_3": " §bStone Equipment",
+      "item.upgradertemplates.iron_template.description_0": "§7Iron Upgrade",
+      "item.upgradertemplates.iron_template.description_1": "",
+      "item.upgradertemplates.gold_template": "Upgrade Template",
+      "item.upgradertemplates.diamond_template.description_0": "§7Diamond Upgrade",
+      "item.upgradertemplates.diamond_template.description_1": "",
+      "item.upgradertemplates.diamond_template.description_4": "§7Ingredients:",
+      "item.upgradertemplates.diamond_template.description_5": " §bDiamond",
+      "item.upgradertemplates.diamond_template.description_2": "§7Applies to:",
+      "item.upgradertemplates.diamond_template.description_3": " §bIron Equipment",
+      "item.upgradertemplates.stone_template.description_5": " §bStone Block",
+      "item.upgradertemplates.stone_template.description_3": " §bWood Equipment",
+      "item.upgradertemplates.stone_template.description_4": "§7Ingredients:",
+      "item.upgradertemplates.stone_template.description_1": "",
+      "item.upgradertemplates.stone_template.description_2": "§7Applies to:",
+      "item.upgradertemplates.stone_template.description_0": "§7Stone Upgrade",
+      "item.upgradertemplates.stone_template": "Upgrade Template",
+      "item.upgradertemplates.diamond_template": "Upgrade Template",
+      "item.upgradertemplates.gold_template.description_5": " §bGold Ingot",
+      "item.upgradertemplates.gold_template.description_4": "§7Ingredients:",
+      "item.upgradertemplates.gold_template.description_3": " §bStone Equipment",
+      "item.upgradertemplates.gold_template.description_2": "§7Applies to:",
+      "item.upgradertemplates.gold_template.description_1": "",
+      "item_group.upgradertemplates.smithing_templates": "Smithing Templates",
+      "item.upgradertemplates.gold_template.description_0": "§7Gold Upgrade"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/suluzuko/upgradertemplates/init/UpgradertemplatesModTabs.java",
+      "src/main/java/net/suluzuko/upgradertemplates/UpgradertemplatesMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/suluzuko/upgradertemplates/init/UpgradertemplatesModItems.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "templates",
+        "children": []
+      },
+      {
+        "name": "template recipes",
+        "children": []
+      },
+      {
+        "name": "stone tools",
+        "children": []
+      },
+      {
+        "name": "iron tools",
+        "children": []
+      },
+      {
+        "name": "template loot tables",
+        "children": []
+      },
+      {
+        "name": "recipe overrides",
+        "children": []
+      },
+      {
+        "name": "diamond tools",
+        "children": []
+      },
+      {
+        "name": "gold tools",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "upgradertemplates",
+    "modName": "Suluzuko\u0027s Smithing Templates",
+    "version": "1.1.0",
+    "description": "A mod that aims to slow progression with 4 new smithing templates that are required to obtain armor and tools.",
+    "author": "Suluzuko, Zacblazer",
+    "websiteURL": "https://github.com/Suluzuko",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "pack",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Head Coder - Suluzuko, Head Artist - Zacblazer",
+    "modElementsPackage": "net.suluzuko.upgradertemplates"
+  },
+  "mcreatorVersion": 202500228610
+}

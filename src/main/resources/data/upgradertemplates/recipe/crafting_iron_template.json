@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "smithing_templates",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "upgradertemplates:iron_template"
+    },
+    "c": {
+      "item": "upgradertemplates:stone_template"
+    }
+  },
+  "result": {
+    "id": "upgradertemplates:iron_template",
+    "count": 2
+  }
+}

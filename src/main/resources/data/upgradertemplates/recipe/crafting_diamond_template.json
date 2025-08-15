@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "smithing_templates",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "upgradertemplates:diamond_template"
+    },
+    "c": {
+      "item": "upgradertemplates:iron_template"
+    }
+  },
+  "result": {
+    "id": "upgradertemplates:diamond_template",
+    "count": 2
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "smithing_templates",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_ingot"
+    },
+    "b": {
+      "item": "upgradertemplates:gold_template"
+    },
+    "c": {
+      "item": "upgradertemplates:stone_template"
+    }
+  },
+  "result": {
+    "id": "upgradertemplates:gold_template",
+    "count": 2
+  }
+}
